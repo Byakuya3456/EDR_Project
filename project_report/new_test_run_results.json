@@ -1,0 +1,35 @@
+[
+    {
+        "Scenario_ID": 1,
+        "Scenario": "Scenario 1: High Speed Highway Tree Impact (High Severity)",
+        "Description": "Vehicle traveling at 120 km/h, no braking applied (-2s to 0s = 0), frontal impact with Tree/Pole (OBJCONT=12).",
+        "Predicted_Severity": "Non-Deploy",
+        "Confidence_Probabilities": {
+            "Deploy": 0.0844,
+            "Near-Deploy": 0.0321,
+            "Non-Deploy": 0.8835
+        }
+    },
+    {
+        "Scenario_ID": 2,
+        "Scenario": "Scenario 2: Medium Speed Severe Braking Boundary Impact (Near-Deploy)",
+        "Description": "Vehicle at 55 km/h, heavy braking applied (-2s speed 85 km/h -> Delta = -30 km/h), frontal vehicle collision.",
+        "Predicted_Severity": "Deploy",
+        "Confidence_Probabilities": {
+            "Deploy": 0.8884,
+            "Near-Deploy": 0.0093,
+            "Non-Deploy": 0.1023
+        }
+    },
+    {
+        "Scenario_ID": 3,
+        "Scenario": "Scenario 3: Low Speed Guardrail Side Glance (Non-Deploy)",
+        "Description": "Vehicle at 20 km/h, light braking, side brush against Guardrail (OBJCONT=31).",
+        "Predicted_Severity": "Non-Deploy",
+        "Confidence_Probabilities": {
+            "Deploy": 0.4093,
+            "Near-Deploy": 0.0472,
+            "Non-Deploy": 0.5434
+        }
+    }
+]

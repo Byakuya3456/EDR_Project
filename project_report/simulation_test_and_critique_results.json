@@ -1,0 +1,138 @@
+[
+    {
+        "Simulation_ID": 1,
+        "Scenario_Name": "Simulation 1: High-Speed Frontal Tree/Pole Impact",
+        "Physics_Context": "Vehicle traveling at 45 mph, no braking applied (-2s to 0s Delta = 0), direct frontal collision with a Tree/Utility Pole (OBJCONT = 41).",
+        "Input_Parameters": {
+            "Vehicle Speed at Impact": "45.0 mph",
+            "Pre-Crash Max Speed": "48.0 mph",
+            "Speed at -2.0s": "45.0 mph",
+            "Speed Delta (-2s to 0s)": "0.0 (No Brake)",
+            "Engine Throttle at Impact": "75.0%",
+            "Brake Status at Impact": "0 (Off)",
+            "Impact Object (OBJCONT)": "41 (Tree)",
+            "Vehicle Body Type": "SUV",
+            "Manufacturer": "Toyota",
+            "Driver Seatbelt Used": "1 (Yes)",
+            "Driver Gender": "1 (Male)",
+            "Max Occupant Age": "34 years"
+        },
+        "Model_Predicted_Severity": "Deploy",
+        "Model_Confidence_Probabilities": {
+            "Deploy": 0.6058,
+            "Near-Deploy": 0.0443,
+            "Non-Deploy": 0.3499
+        },
+        "Real_World_Critique_Check": {
+            "Historical_Matching_NHTSA_Records_Found": 456,
+            "Historical_Ground_Truth_Distribution": {
+                "Deploy": "99.8%",
+                "Non-Deploy": "0.2%"
+            },
+            "Historical_Most_Common_Outcome": "Deploy",
+            "Critique_Validation_Status": "VALIDATED"
+        }
+    },
+    {
+        "Simulation_ID": 2,
+        "Scenario_Name": "Simulation 2: Moderate Speed Emergency Braking Vehicle Collision",
+        "Physics_Context": "Vehicle initially at 55 mph, heavy braking applied 2s before impact reducing speed to 25 mph (Delta = -30 mph), frontal collision with another vehicle (OBJCONT = 1).",
+        "Input_Parameters": {
+            "Vehicle Speed at Impact": "25.0 mph",
+            "Pre-Crash Max Speed": "55.0 mph",
+            "Speed at -2.0s": "55.0 mph",
+            "Speed Delta (-2s to 0s)": "-30.0 (Hard Braking)",
+            "Engine Throttle at Impact": "0.0%",
+            "Brake Status at Impact": "1 (On)",
+            "Impact Object (OBJCONT)": "1 (Vehicle in Transport)",
+            "Vehicle Body Type": "Passenger Car",
+            "Manufacturer": "Honda",
+            "Driver Seatbelt Used": "1 (Yes)",
+            "Driver Gender": "2 (Female)",
+            "Max Occupant Age": "29 years"
+        },
+        "Model_Predicted_Severity": "Deploy",
+        "Model_Confidence_Probabilities": {
+            "Deploy": 0.8682,
+            "Near-Deploy": 0.0091,
+            "Non-Deploy": 0.1226
+        },
+        "Real_World_Critique_Check": {
+            "Historical_Matching_NHTSA_Records_Found": 294,
+            "Historical_Ground_Truth_Distribution": {
+                "Deploy": "97.6%",
+                "Non-Deploy": "2.4%"
+            },
+            "Historical_Most_Common_Outcome": "Deploy",
+            "Critique_Validation_Status": "VALIDATED"
+        }
+    },
+    {
+        "Simulation_ID": 3,
+        "Scenario_Name": "Simulation 3: Low Speed Guardrail Side Brush",
+        "Physics_Context": "Vehicle traveling slowly at 12 mph, light braking applied, side glancing contact with a Guardrail (OBJCONT = 31).",
+        "Input_Parameters": {
+            "Vehicle Speed at Impact": "12.0 mph",
+            "Pre-Crash Max Speed": "18.0 mph",
+            "Speed at -2.0s": "18.0 mph",
+            "Speed Delta (-2s to 0s)": "-6.0 (Light Brake)",
+            "Engine Throttle at Impact": "0.0%",
+            "Brake Status at Impact": "1 (On)",
+            "Impact Object (OBJCONT)": "31 (Guardrail)",
+            "Vehicle Body Type": "Passenger Car",
+            "Manufacturer": "Ford",
+            "Driver Seatbelt Used": "1 (Yes)",
+            "Driver Gender": "1 (Male)",
+            "Max Occupant Age": "52 years"
+        },
+        "Model_Predicted_Severity": "Deploy",
+        "Model_Confidence_Probabilities": {
+            "Deploy": 0.5728,
+            "Near-Deploy": 0.061,
+            "Non-Deploy": 0.3662
+        },
+        "Real_World_Critique_Check": {
+            "Historical_Matching_NHTSA_Records_Found": 109,
+            "Historical_Ground_Truth_Distribution": {
+                "Deploy": "100.0%"
+            },
+            "Historical_Most_Common_Outcome": "Deploy",
+            "Critique_Validation_Status": "VALIDATED"
+        }
+    },
+    {
+        "Simulation_ID": 4,
+        "Scenario_Name": "Simulation 4: Borderline Near-Deployment Threshold Incident",
+        "Physics_Context": "Vehicle at 22 mph, moderate braking (Delta = -10 mph), frontal collision with vehicle in transport (OBJCONT = 1).",
+        "Input_Parameters": {
+            "Vehicle Speed at Impact": "22.0 mph",
+            "Pre-Crash Max Speed": "32.0 mph",
+            "Speed at -2.0s": "32.0 mph",
+            "Speed Delta (-2s to 0s)": "-10.0 (Moderate Brake)",
+            "Engine Throttle at Impact": "0.0%",
+            "Brake Status at Impact": "1 (On)",
+            "Impact Object (OBJCONT)": "1 (Vehicle in Transport)",
+            "Vehicle Body Type": "Passenger Car",
+            "Manufacturer": "Chevrolet",
+            "Driver Seatbelt Used": "1 (Yes)",
+            "Driver Gender": "1 (Male)",
+            "Max Occupant Age": "41 years"
+        },
+        "Model_Predicted_Severity": "Deploy",
+        "Model_Confidence_Probabilities": {
+            "Deploy": 0.6415,
+            "Near-Deploy": 0.0212,
+            "Non-Deploy": 0.3372
+        },
+        "Real_World_Critique_Check": {
+            "Historical_Matching_NHTSA_Records_Found": 618,
+            "Historical_Ground_Truth_Distribution": {
+                "Deploy": "98.2%",
+                "Non-Deploy": "1.6%",
+                "Near-Deploy": "0.2%"
+            },
+            "Historical_Most_Common_Outcome": "Deploy",
+            "Critique_Validation_Status": "VALIDATED"
+        }
+    }
+]

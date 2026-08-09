@@ -1,0 +1,17 @@
+# Python / Virtual Environment
+venv/
+ENV/
+env/
+*.pyc
+__pycache__/
+
+# Private Ownership & Signature Manifests
+PROJECT_OWNERSHIP_MANIFEST.json
+verify_project_ownership.py
+*.zip
+
+# Temporary Log & Cache Files
+catboost_info/
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,194 @@
+{
+  "Simulation 1: High-Speed Frontal Tree/Pole Crash (High Severity)": {
+    "ground_truth_matches": 64,
+    "ground_truth_distribution": {
+      "Deploy": "100.0%"
+    },
+    "majority_class": "Deploy",
+    "predictions": {
+      "LightGBM": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9989718803920596,
+          "Near-Deploy": 1.738779307877978e-05,
+          "Non-Deploy": 0.0010107318148616464
+        }
+      },
+      "CatBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9977629407645154,
+          "Near-Deploy": 0.00028317075747727406,
+          "Non-Deploy": 0.001953888478007408
+        }
+      },
+      "XGBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9998869895935059,
+          "Near-Deploy": 1.4261253511449468e-07,
+          "Non-Deploy": 0.00011284717038506642
+        }
+      },
+      "Random Forest": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.999688074768034,
+          "Near-Deploy": 0.0,
+          "Non-Deploy": 0.000311925231965859
+        }
+      },
+      "FT-Transformer": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9329833388328552,
+          "Near-Deploy": 2.1552143607550533e-06,
+          "Non-Deploy": 0.06701455265283585
+        }
+      }
+    }
+  },
+  "Simulation 2: Moderate Speed Emergency Braking Vehicle Collision": {
+    "ground_truth_matches": 0,
+    "ground_truth_distribution": {},
+    "majority_class": "Deploy",
+    "predictions": {
+      "LightGBM": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9991049673371755,
+          "Near-Deploy": 1.8199522643287765e-05,
+          "Non-Deploy": 0.0008768331401814023
+        }
+      },
+      "CatBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9979342051872618,
+          "Near-Deploy": 0.00017344938693939703,
+          "Non-Deploy": 0.0018923454257988085
+        }
+      },
+      "XGBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.999906063079834,
+          "Near-Deploy": 9.783545351638168e-08,
+          "Non-Deploy": 9.381125710206106e-05
+        }
+      },
+      "Random Forest": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.999688074768034,
+          "Near-Deploy": 0.0,
+          "Non-Deploy": 0.000311925231965859
+        }
+      },
+      "FT-Transformer": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9362273216247559,
+          "Near-Deploy": 1.5165536751737818e-05,
+          "Non-Deploy": 0.06375755369663239
+        }
+      }
+    }
+  },
+  "Simulation 3: Low Speed Guardrail Side Brush": {
+    "ground_truth_matches": 23,
+    "ground_truth_distribution": {
+      "Deploy": "100.0%"
+    },
+    "majority_class": "Deploy",
+    "predictions": {
+      "LightGBM": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.998902537010527,
+          "Near-Deploy": 1.8342333381228153e-05,
+          "Non-Deploy": 0.0010791206560918135
+        }
+      },
+      "CatBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.997782793264496,
+          "Near-Deploy": 0.00027921091547580156,
+          "Non-Deploy": 0.0019379958200282195
+        }
+      },
+      "XGBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9998478889465332,
+          "Near-Deploy": 1.8752375297026447e-07,
+          "Non-Deploy": 0.0001519199722679332
+        }
+      },
+      "Random Forest": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9987209690814312,
+          "Near-Deploy": 0.0,
+          "Non-Deploy": 0.0012790309185685784
+        }
+      },
+      "FT-Transformer": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9330511093139648,
+          "Near-Deploy": 2.159850509997341e-06,
+          "Non-Deploy": 0.06694681197404861
+        }
+      }
+    }
+  },
+  "Simulation 4: Borderline Near-Deployment Threshold Incident": {
+    "ground_truth_matches": 0,
+    "ground_truth_distribution": {},
+    "majority_class": "Deploy",
+    "predictions": {
+      "LightGBM": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9991049673371755,
+          "Near-Deploy": 1.8199522643287765e-05,
+          "Non-Deploy": 0.0008768331401814023
+        }
+      },
+      "CatBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9978863746001403,
+          "Near-Deploy": 0.0001791508767798098,
+          "Non-Deploy": 0.001934474523079922
+        }
+      },
+      "XGBoost": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.999906063079834,
+          "Near-Deploy": 9.783545351638168e-08,
+          "Non-Deploy": 9.381125710206106e-05
+        }
+      },
+      "Random Forest": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.99967354704734,
+          "Near-Deploy": 0.0,
+          "Non-Deploy": 0.0003264529526597658
+        }
+      },
+      "FT-Transformer": {
+        "predicted": "Deploy",
+        "probabilities": {
+          "Deploy": 0.9362273216247559,
+          "Near-Deploy": 1.5165536751737818e-05,
+          "Non-Deploy": 0.06375755369663239
+        }
+      }
+    }
+  }
+}

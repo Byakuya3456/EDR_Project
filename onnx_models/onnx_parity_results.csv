@@ -1,0 +1,7 @@
+Model,Native Format,ONNX File,Max Prob Absolute Diff,Prediction Class Parity,Status
+CatBoost,catboost_model.cbm,catboost_model.onnx,1.973564e-07,100.00%,✅ PARITY MATCHED
+LightGBM,lightgbm_model.joblib,lightgbm_model.onnx,2.561310e-02,100.00%,✅ PARITY MATCHED
+XGBoost,xgboost_model.json,xgboost_model.onnx,2.980232e-07,100.00%,✅ PARITY MATCHED
+Random Forest,random_forest_model.joblib,random_forest_model.onnx,6.275707e-07,100.00%,✅ PARITY MATCHED
+FT-Transformer,ft_weights.pt,ft_transformer_model.onnx,5.364418e-07,100.00%,✅ PARITY MATCHED
+SAINT Transformer,saint_weights.pt,saint_model.onnx,1.043081e-06,100.00%,✅ PARITY MATCHED
